@@ -6,6 +6,8 @@
 > |-|-|
 > | Linux (Ubuntu 22.04) | Humble |
 
+<br>
+
 ## MCP
 ---
 ## 1. Install the MCP server
@@ -19,6 +21,8 @@
 > # Test that the ROS-MCP server can be accessed in the venv
 > uvx ros-mcp --help
 > ```
+
+<br>
 
 ## 2. Install and configure a Language Model Client
 ### 2.1 Download
@@ -63,6 +67,8 @@ JSON 파일의 `mcpServers` 섹션에 다음 내용을 추가하세요.<br>
 > <img width="500" alt="image" src="https://github.com/user-attachments/assets/d51a6a6f-d9f1-4bcd-a1e5-7244e807fab3" />
 ---
 
+<br>
+
 ## ROS 2
 ---
 ## 3. Install and run rosbridge
@@ -82,6 +88,8 @@ JSON 파일의 `mcpServers` 섹션에 다음 내용을 추가하세요.<br>
 > ros2 launch rosbridge_server rosbridge_websocket_launch.xml
 > ```
 ---
+
+<br>
 
 ## Test
 ---
