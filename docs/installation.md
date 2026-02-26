@@ -84,25 +84,23 @@ JSON 파일의 `mcpServers` 섹션에 다음 내용을 추가하세요.<br>
 > ```bash
 > ros2 launch rosbridge_server rosbridge_websocket_launch.xml
 > ```
----
 
 <br>
 
-## Test
----
-1. **turtlesim**을 실행하세요.
+## 4. Test
+### 4.1 **turtlesim**을 실행하세요.
 > ```bash
 > ros2 run turtlesim turtlesim_node
 > ```
 > <img width="250" alt="image" src="https://github.com/user-attachments/assets/d83c933e-0d3d-4544-81db-2f3e128a6111" />
 
-2. **Claude Desktop**에서 다음 텍스트를 입력하세요.
+### 4.2 **Claude Desktop**에서 다음 텍스트를 입력하세요.
 > ```text
 > Make the robot move forward.
 > ```
 > <img width="500" alt="image" src="https://github.com/user-attachments/assets/7587797a-4c26-4375-a0ff-23b65fecd0a3" />
 
-3. 결과를 확인하세요.
+### 4.3 결과를 확인하세요.
 > <img width="500" alt="image" src="https://github.com/user-attachments/assets/cbc7f0fd-566f-4133-92e7-d9edf709102d" /><br>
 > <img width="250" alt="image" src="https://github.com/user-attachments/assets/37a192fa-0f23-44de-aaf8-7ab3775ed9f4" />
 ---
