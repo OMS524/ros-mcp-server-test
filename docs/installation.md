@@ -6,6 +6,7 @@
 > ```bash
 > curl -LsSf https://astral.sh/uv/install.sh | sh
 > ```
+
 ### 1.2 Test run ROS-MCP using uvx
 > ```bash
 > # Test that the ROS-MCP server can be accessed in the venv
@@ -27,6 +28,7 @@
 > sudo apt update
 > sudo apt install claude-desktop
 > ```
+
 ### 2.2 Configure
 `~/.config/Claude/claude_desktop_config.json` 해당 파일을 찾아서 편집하세요.<br>
 해당 경로 및 파일이 없으면 생성하세요.<br>
@@ -44,6 +46,7 @@ JSON 파일의 `mcpServers` 섹션에 다음 내용을 추가하세요.<br>
 >   }
 > }
 > ```
+
 ### 2.3 Test the connection
 터미널에서 다음 명령어를 실행하여 **Claude Desktop**을 실행하세요.
 커넥터에 `ros-mcp-server`가 활성화 되어 있어야 합니다.
@@ -53,7 +56,23 @@ JSON 파일의 `mcpServers` 섹션에 다음 내용을 추가하세요.<br>
 > <img width="500" alt="image" src="https://github.com/user-attachments/assets/d51a6a6f-d9f1-4bcd-a1e5-7244e807fab3" />
 ---
 
+## ROS 2
+---
+## 3. Install and run rosbridge
+### 3.1. Install rosbridge_server
+#### ROS 2 Humble
+```bash
+sudo apt install ros-humble-rosbridge-server
+```
+#### other ROS Distros
+```bash
+sudo apt install ros-${ROS_DISTRO}-rosbridge-server
+```
 
-
+### 3.2. Launch rosbridge in your ROS environment:
+```bash
+ros2 launch rosbridge_server rosbridge_websocket_launch.xml
+```
+---
 
 
