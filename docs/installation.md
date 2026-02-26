@@ -76,6 +76,7 @@ ros2 launch rosbridge_server rosbridge_websocket_launch.xml
 ---
 
 ## Test
+---
 1. **turtlesim**을 실행하세요.
 > ```bash
 > ros2 run turtlesim turtlesim_node
@@ -91,6 +92,7 @@ ros2 launch rosbridge_server rosbridge_websocket_launch.xml
 3. 결과를 확인하세요.
 > <img width="500" alt="image" src="https://github.com/user-attachments/assets/cbc7f0fd-566f-4133-92e7-d9edf709102d" /><br>
 > <img width="250" alt="image" src="https://github.com/user-attachments/assets/37a192fa-0f23-44de-aaf8-7ab3775ed9f4" />
+---
 
 
 
