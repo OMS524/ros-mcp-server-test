@@ -1,5 +1,12 @@
 # Installation
-## Linux (Ubuntu)
+> [!NOTE]
+> 해당 내용은 다음과 같은 환경하에 작성되었습니다.
+> 
+> | OS | ROS 2 |
+> |-|-|
+> | Linux (Ubuntu) | Humble |
+
+## MCP
 ---
 ## 1. Install the MCP server
 ### 1.1 Install uv
