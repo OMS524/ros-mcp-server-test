@@ -75,7 +75,7 @@ ros2 launch rosbridge_server rosbridge_websocket_launch.xml
 ```
 ---
 
-### 3.3. Test
+## Test
 1. **turtlesim**을 실행하세요.
 > ```bash
 > ros2 run turtlesim turtlesim_node
