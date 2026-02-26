@@ -65,12 +65,9 @@ JSON 파일의 `mcpServers` 섹션에 다음 내용을 추가하세요.<br>
 > claude-desktop
 > ```
 > <img width="500" alt="image" src="https://github.com/user-attachments/assets/d51a6a6f-d9f1-4bcd-a1e5-7244e807fab3" />
----
 
 <br>
 
-## ROS 2
----
 ## 3. Install and run rosbridge
 ### 3.1. Install rosbridge_server
 #### ROS 2 Humble
