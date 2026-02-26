@@ -16,7 +16,7 @@ uvx ros-mcp --help
 
 ## 2. Install and configure a Language Model Client
 ### 2.1 Download
-[claude-desktop-debian](https://github.com/aaddrick/claude-desktop-debian)
+[claude-desktop-debian](https://github.com/aaddrick/claude-desktop-debian)<br>
 **Using APT Repository (Debian/Ubuntu - Recommended)**
 ```bash
 # Add the GPG key
