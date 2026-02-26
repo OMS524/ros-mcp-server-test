@@ -52,7 +52,7 @@ JSON 파일의 `mcpServers` 섹션에 다음 내용을 추가하세요.<br>
 > ```bash
 > claude-desktop
 > ```
-> <img width="1000" alt="image" src="https://github.com/user-attachments/assets/d51a6a6f-d9f1-4bcd-a1e5-7244e807fab3" />
+> <img width="500" alt="image" src="https://github.com/user-attachments/assets/d51a6a6f-d9f1-4bcd-a1e5-7244e807fab3" />
 
 
 
