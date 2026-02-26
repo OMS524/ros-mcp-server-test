@@ -61,18 +61,19 @@ JSON 파일의 `mcpServers` 섹션에 다음 내용을 추가하세요.<br>
 ## 3. Install and run rosbridge
 ### 3.1. Install rosbridge_server
 #### ROS 2 Humble
-```bash
-sudo apt install ros-humble-rosbridge-server
-```
+> ```bash
+> sudo apt install ros-humble-rosbridge-server
+> ```
+
 #### other ROS Distros
-```bash
-sudo apt install ros-${ROS_DISTRO}-rosbridge-server
-```
+> ```bash
+> sudo apt install ros-${ROS_DISTRO}-rosbridge-server
+> ```
 
 ### 3.2. Launch rosbridge in your ROS environment:
-```bash
-ros2 launch rosbridge_server rosbridge_websocket_launch.xml
-```
+> ```bash
+> ros2 launch rosbridge_server rosbridge_websocket_launch.xml
+> ```
 ---
 
 ## Test
