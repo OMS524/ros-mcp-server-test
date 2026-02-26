@@ -4,7 +4,7 @@
 > 
 > | OS | ROS 2 |
 > |-|-|
-> | Linux (Ubuntu) | Humble |
+> | Linux (Ubuntu 22.04) | Humble |
 
 ## MCP
 ---
