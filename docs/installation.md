@@ -1,4 +1,4 @@
-<img width="502" height="539" alt="image" src="https://github.com/user-attachments/assets/6497f679-a423-412f-b886-b9ba9f8689b3" /># Installation
+# Installation
 ## Linux (Ubuntu)
 ---
 ## 1. Install the MCP server
